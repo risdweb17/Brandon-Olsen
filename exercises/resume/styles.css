@@ -1,0 +1,53 @@
+h2 {
+	display:inline;
+}
+
+h2:first-child {
+	float: left;
+	display:block;
+}
+
+h2:nth-child(2) {
+	float:right;
+	display:block;
+}
+
+li {
+	font-size: 10pt;
+	font-family: Arial, sans-serif;
+}
+
+#clear {
+	clear: both;
+}
+
+.email {
+	font-size:12px;
+	line-height: .5;
+}
+
+.address {
+	font-size:11px;
+	font-family: Garamond;
+	color: gray;
+	text-align: center;
+}
+
+#line {
+	border: 1px solid black;
+}
+
+.education {
+	float:left;
+}
+
+.education_image {
+	float: right;
+	height: 50px;
+	width: 50px;
+	padding-top: 5px;
+}
+
+* {
+	font-family: Garamond;
+}
