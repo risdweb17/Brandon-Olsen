@@ -1,20 +1,38 @@
-h2 {
-	display:inline;
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	background-color:#f32938;
+	color: #ed949b;
 }
 
-h2:first-child {
+h1 {
 	float: left;
 	display:block;
+	margin-bottom:0rem;
 }
 
-h2:nth-child(2) {
-	float:right;
-	display:block;
+h2 {
+	font-size: 1.25rem;
+	margin-bottom: 0em;
+}
+
+h3 {
+	font-size: 1rem;
+	margin-top: 0rem;
 }
 
 li {
-	font-size: 10pt;
-	font-family: Arial, sans-serif;
+	font-size: .75rem;
+	list-style: none;
+	font-weight: 300;
+	line-height: .90rem;
+	margin-right: 0rem;
+	padding-right: 0rem
+}
+
+ul {
+	padding-left: 1.5rem;
+	margin-top:.0rem;
 }
 
 #clear {
@@ -22,19 +40,27 @@ li {
 }
 
 .email {
-	font-size:12px;
+	font-size:10px;
 	line-height: .5;
+	float:right;
+	display:block;
+	margin-top: 1.75rem;
+	font-weight: 300;
+}
+
+.sectionleft {
+	float: left;
 }
 
 .address {
 	font-size:11px;
-	font-family: Garamond;
 	color: gray;
 	text-align: center;
 }
 
-#line {
+.line {
 	border: 1px solid black;
+	border-color: #ed949b
 }
 
 .education {
@@ -42,12 +68,22 @@ li {
 }
 
 .education_image {
-	float: right;
+	float: left;
 	height: 50px;
 	width: 50px;
-	padding-top: 5px;
+	margin-right: 1em;
 }
 
-* {
-	font-family: Garamond;
+#date {
+	font-weight: 300;
 }
+
+.info {
+		font-size: .75rem;
+		list-style: none;
+		font-weight: 300;
+		line-height: .90rem;
+		margin: 0rem 0rem 0rem 0rem;
+		padding: 0rem 0rem 0rem 0rem;
+}
+
