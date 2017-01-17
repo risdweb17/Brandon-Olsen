@@ -50,11 +50,12 @@ ul {
 
 .sectionleft {
 	float: left;
+	width:50%;
 }
 
 .address {
 	font-size:11px;
-	color: gray;
+	color: #ed949b;
 	text-align: center;
 }
 

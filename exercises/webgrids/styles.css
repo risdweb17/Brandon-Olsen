@@ -1,0 +1,18 @@
+.container {
+	background-color:yellowgreen;
+	overflow: auto;
+}
+
+.box{
+	background-color:yellow;
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+.chunk {
+	padding: 40px;
+	float:left;
+	text-align:center;
+
+}

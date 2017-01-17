@@ -384,4 +384,87 @@ a {
     display : none;
     }
 
+/*--Start of END--*/
 
+.other_showend {
+	color: #f32938;
+	background-color:yellow;
+	width: 200px;
+	height: 200px;
+	float:left;
+	font-family:sans-serif;
+	text-align: center;
+	font-size: 58px;
+}
+
+.show_otherend{ 
+    display: none;
+    }
+    .other_showend:hover .show_otherend{
+    display : block;
+    width: 200px;
+	height: 200px;
+    font-size: 58px;
+    background-color: #f32938;
+    color: yellow;
+    }
+    .other_showend:hover .show_otherxend{
+    display : none;
+    }
+
+.textend {
+	color: #f32938;
+	background-color:yellow;
+	width: 200px;
+	height: 200px;
+	float:left;
+	font-family:sans-serif;
+	text-align: center;
+	font-size: 190px;
+}
+
+.yellowend {
+	color: yellow;
+	background-color: #f32938;
+	width: 200px;
+	height: 200px;
+	float:left;
+	font-family:sans-serif;
+	text-align: center;
+	font-size: 180px;
+}
+
+.yellow_showend {
+	color: #f32938;
+	background-color:yellow;
+	width: 200px;
+	height: 200px;
+	float:left;
+	font-family:sans-serif;
+	text-align: center;
+	font-size: 190px;
+}
+
+.textend:hover {
+	color: yellow;	
+	background-color: #f32938;
+}
+
+.wrongend:hover {
+	background-color: #f32938;
+}
+
+ .show_notend{ 
+    display: none;
+    }
+    .yellow_showend:hover .show_notend{
+    display : block;
+    width: 200px;
+	height: 200px;
+    font-size: 58px;
+    background-color: #f32938;
+    color: yellow;
+    }
+    .yellow_showend:hover .show_xend{
+    display : none;
+    }
