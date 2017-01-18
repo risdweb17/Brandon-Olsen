@@ -5,7 +5,7 @@
 	border-radius: 50%;
 	margin: auto;
 	position: relative;
-	top: -2100px;
+	top: -2090px;
 }
 
 .circle_small {
@@ -32,31 +32,158 @@
 	width: 900px;
 }
 
-.anthologie {
+/*.anthologie {
 	font-size: 2rem;
 	font-family: Helvetica, sans-serif;
 	margin: auto;
 	text-align: center;
 	position: relative;
-	top: -2300px;
+	top: -2320px;
 	right: 115px;
 }
 
-.music {
+/*.music {
 	font-size: 2rem;
 	font-family: Helvetica, sans-serif;
 	margin: auto;
 	text-align: center;
 	position: relative;
-	top: -2295px;
+	top: -2315px;
+}
+
+/*.suisse {
+	font-size: 2rem;
+	font-family: Helvetica, sans-serif;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: -2310px;
+	left: 100px; 
+} */
+
+.anthologie {
+	position: relative;
+	right: 115px;	
+}
+
+.music {
+	position: relative;
+	top: 5px;
 }
 
 .suisse {
+	position: relative;
+	left: 130px; 
+}
+
+.words {
 	font-size: 2rem;
 	font-family: Helvetica, sans-serif;
 	margin: auto;
 	text-align: center;
 	position: relative;
-	top: -2290px;
-	left: 100px;
+	top: -2340px;
 }
+
+.white_words {
+	font-family: Helvetica, sans-serif;
+	color: #c3c3c3;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: -2190px;
+	left:100px;
+}
+
+.line1 {
+	position: relative;
+	left: 20px;
+}
+
+.line2 {
+	position:relative;
+	left:80px;
+}
+
+.line3 {
+	position:relative;
+	left:15px;
+}
+
+.line4 {
+	position: relative;
+	right: 110px;
+	top: 2rem;
+}
+
+.line5 {
+	position: relative;
+	right: 120px;
+	top: 2rem;
+}
+
+.line6 {
+	position: relative;
+	right: 230px;
+	top: 2rem;
+}
+
+.line7 {
+	position: relative;
+	right: 205px;
+	top: 2rem;
+}
+
+.line8 {
+	position: relative;
+	right: 370px;
+	top: 4rem;
+}
+
+.line9 {
+	position: relative;
+	right: 270px;
+	top: 4rem;
+}
+
+.line10 {
+	position: relative;
+	right: 100px;
+	top: 4rem;
+}
+
+.nothing {
+	position: relative;
+	top: -300px;
+}
+
+@keyframes rotate {
+	0%  {transform: rotate(0deg); transform-origin: top; 
+	}
+	50% {transform: rotate(180deg); transform-origin: top;
+	}
+	100% {transform: rotate(360deg); transform-origin: top;
+	}
+}
+
+div.words {
+	animation: rotate 3.5s linear infinite;
+}
+
+/*div.white_words {
+	animation: rotated 3.5s linear infinite;
+}
+
+@keyframes rotated {
+	0%  {transform: rotate(0deg); transform-origin: 1125px -265px;
+	}
+	50% {transform: rotate(180deg); transform-origin: 1125px -265px;
+	}
+	100% {transform: rotate(360deg); transform-origin: 1125px -265px;
+	}
+}
+
+
+
+
+
