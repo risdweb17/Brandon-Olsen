@@ -1,0 +1,139 @@
+@font-face {
+	font-family:"MarkWeb W01 Regular";
+	src:url("Fonts/1466068/76b78c7b-50e8-443f-947d-491bd1363209.eot?#iefix");
+	src:url("Fonts/1466068/76b78c7b-50e8-443f-947d-491bd1363209.eot?#iefix") format("eot"),url("Fonts/1466068/b3504f0d-8be1-4759-bb03-dd041a630b85.woff2") format("woff2"),url("Fonts/1466068/f4f1b391-1256-4245-ba89-842d884c1e51.woff") format("woff"),url("Fonts/1466068/1f72bfeb-0b2a-45fa-aaee-bbd991d40541.ttf") format("truetype");
+}
+
+.nav {
+	font-family:"MarkWeb W01 Regular";
+	text-decoration: none;
+	color: black;
+	margin: auto;
+}
+
+.top_left {
+	float: left;
+	padding-left: 2rem;
+}
+
+.top_right {
+	float: right;
+	padding-right: 2rem;	
+}
+
+.nav_block {
+	background-color: white;
+	height: 2rem;
+	width:100vw;
+	position: absolute;
+	padding-top: .5rem;
+}
+
+#clear {
+	clear: both;
+	float: right;
+}
+
+.arrow_container {
+	width: 5%;
+	float: left;
+}
+
+.arrow {
+	width: 30px;
+	float: left;
+	padding-left: 2rem;
+	margin-top: 7rem;
+
+}
+.arrowright {
+	width: 30px;
+	float: right;
+	padding-right: 2rem;
+	margin-top: 7rem;
+
+}
+
+.table {
+	width:70%;
+	margin:auto;
+	border: solid 1px;
+
+}
+
+.top_left a:hover {
+	background-color: #f32938;
+	padding: 1rem .5rem .3rem .5rem;
+	margin-left: -.5rem;
+	color:white;
+}
+
+.top_right a:hover {
+	background-color: #f32938;
+	padding: 1rem .5rem .3rem .5rem;
+	margin-right: -.5rem;
+	color:white;
+}
+
+.border {
+	border: solid, 1px;
+}
+
+.container {
+	height: 100%;
+}
+
+.backImage_1 {
+	background: url("img/page1.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.backImage_1a {
+	background: url("img/page1a.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.backImage_1b {
+	background: url("img/page1.5.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px;
+}
+
+.backImage_2 {
+	background: url("img/page2.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.backImage_2a {
+	background: url("img/page2a.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.backImage_2b {
+	background: url("img/page2b.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.backImage_3 {
+	background: url("img/page3.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+
+.arrow:hover {
+	background-color: #f32938;
+	padding-right:.5rem;
+}
+
+.arrowright:hover {
+	background-color: #f32938;
+	padding-left:.5rem;
+}
+
+
