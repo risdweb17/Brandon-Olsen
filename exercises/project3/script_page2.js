@@ -3,7 +3,7 @@
 //});
 
 $(document).ready(function() {
-	$("body").removeClass(".backImage_1a").delay(3000).queue(function(next){
+	$("body").removeClass(".backImage_1a").delay(10000).queue(function(next){
     $(this).addClass("backImage_1b");
     next();
 	})
