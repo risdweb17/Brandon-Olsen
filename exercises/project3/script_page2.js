@@ -3,14 +3,14 @@
 //});
 
 $(document).ready(function() {
-	$("body").removeClass(".backImage_1a").delay(250).queue(function(next){
+	$("body").removeClass(".backImage_1a").delay(300).queue(function(next){
     $(this).addClass("backImage_1b");
     next();
 	})
 });
 
 $(document).ready(function() {
-	$("body").removeClass(".backImage_1b").delay(250).queue(function(next){
+	$("body").removeClass(".backImage_1b").delay(300).queue(function(next){
     $(this).addClass("backImage_2");
     next();
 	})
