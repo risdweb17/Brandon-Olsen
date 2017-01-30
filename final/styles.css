@@ -1,0 +1,59 @@
+@font-face {
+	font-family:"MarkWeb W01 Regular";
+	src:url("Fonts/1466068/76b78c7b-50e8-443f-947d-491bd1363209.eot?#iefix");
+	src:url("Fonts/1466068/76b78c7b-50e8-443f-947d-491bd1363209.eot?#iefix") format("eot"),url("Fonts/1466068/b3504f0d-8be1-4759-bb03-dd041a630b85.woff2") format("woff2"),url("Fonts/1466068/f4f1b391-1256-4245-ba89-842d884c1e51.woff") format("woff"),url("Fonts/1466068/1f72bfeb-0b2a-45fa-aaee-bbd991d40541.ttf") format("truetype");
+}
+
+.back_image {
+	background: url("img/purple_background.jpg") center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	float: left;
+
+}
+
+.item1 {
+	font-family:"MarkWeb W01 Regular";
+	text-decoration: none;
+	color: black;
+	font-size: 4rem;
+	color: black;
+	order: 1;
+	text-align: left;
+}
+
+#clear {
+	clear: all;
+}
+
+.hamburger {
+  background: transparent;
+  font-family:"MarkWeb W01 Regular";
+  font-size: 4rem;
+  color: black;
+  text-decoration: none;
+  border: none;
+}
+
+
+.menu {font-weight:bold; font-size:0.8em; width:10%; background:#131313;  position:absolute; text-align:center;}
+
+li {
+	color: black;
+}
+
+.open {
+  background: red;
+  font-family:"MarkWeb W01 Regular";
+  font-size: 4rem;
+  color: black;
+  text-decoration: none;
+  border: none;
+}
+
+
