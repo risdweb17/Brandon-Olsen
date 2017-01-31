@@ -5,55 +5,57 @@
 }
 
 .back_image {
-	background: url("img/purple_background.jpg") center top;
+	background-color: #353896;
 	background-size: cover;
 	margin: 0px 0px 0px 0px; 
 }
 
-.flex {
-	display: flex;
-	flex-direction: column;
-	float: left;
-
+#home {
+	width: 300px;
+	height: 300px;
 }
 
-.item1 {
+/* sketchbook hover */
+.image_off, #home:hover .image_on{
+   display:none
+}
+.image_on, #home:hover .image_off{
+   display:block
+}
+
+/* x hover */
+
+.x_off, #x:hover .x_on{
+   display:none
+}
+
+.x_on, #x:hover .x_off{
+   display:block
+}
+
+/* josef hover */
+
+.josef_off, #josef:hover .josef_on{
+   display:none
+}
+
+.josef_on, #josef:hover .josef_off{
+   display:block
+}
+
+
+/* text */
+
+.text {
 	font-family:"MarkWeb W01 Regular";
-	text-decoration: none;
-	color: black;
-	font-size: 4rem;
-	color: black;
-	order: 1;
-	text-align: left;
+	font-size: 1rem;
+	position: relative;
+	text-align: center;
+	color: #f32938;
 }
 
-#clear {
-	clear: all;
+.container {
+	width:300px;
+	height: 400px;
+	float: left;
 }
-
-.hamburger {
-  background: transparent;
-  font-family:"MarkWeb W01 Regular";
-  font-size: 4rem;
-  color: black;
-  text-decoration: none;
-  border: none;
-}
-
-
-.menu {font-weight:bold; font-size:0.8em; width:10%; background:#131313;  position:absolute; text-align:center;}
-
-li {
-	color: black;
-}
-
-.open {
-  background: red;
-  font-family:"MarkWeb W01 Regular";
-  font-size: 4rem;
-  color: black;
-  text-decoration: none;
-  border: none;
-}
-
-
