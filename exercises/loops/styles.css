@@ -1,0 +1,15 @@
+.hash {
+	font-size: 3rem;
+	font: Arial;
+	font-weight: 900;
+	color: yellow;
+}
+
+.background {
+	background-color: grey;
+}
+
+p {
+	color: red;
+	font-size: 2rem;
+}
