@@ -1,0 +1,243 @@
+@font-face {
+	font-family:"MarkWeb W01 Regular";
+	src:url("Fonts/1466068/76b78c7b-50e8-443f-947d-491bd1363209.eot?#iefix");
+	src:url("Fonts/1466068/76b78c7b-50e8-443f-947d-491bd1363209.eot?#iefix") format("eot"),url("Fonts/1466068/b3504f0d-8be1-4759-bb03-dd041a630b85.woff2") format("woff2"),url("Fonts/1466068/f4f1b391-1256-4245-ba89-842d884c1e51.woff") format("woff"),url("Fonts/1466068/1f72bfeb-0b2a-45fa-aaee-bbd991d40541.ttf") format("truetype");
+}
+
+.nav {
+	font-family:"MarkWeb W01 Regular";
+	text-decoration: none;
+	color: black;
+	margin: auto;
+}
+
+.top_left {
+	float: left;
+	padding-left: 2rem;
+}
+
+.top_right {
+	float: right;
+	padding-right: 2rem;	
+}
+
+.nav_block {
+	background-color: white;
+	height: 2rem;
+	width:100vw;
+	position: absolute;
+	padding-top: .5rem;
+
+}
+
+#clear {
+	clear: both;
+	float: right;
+}
+
+.arrow_container {
+	width: 5%;
+	float: left;
+}
+
+.arrow {
+	width: 30px;
+	float: left;
+	padding-left: 2rem;
+	margin-top: 7rem;
+
+}
+.arrowright {
+	width: 30px;
+	float: right;
+	padding-right: 2rem;
+	margin-top: 7rem;
+}
+
+
+.top_left a:hover {
+	background-color: #f32938;
+	padding: 1rem .5rem .3rem .5rem;
+	margin-left: -.5rem;
+	color:white;
+}
+
+.top_right a:hover {
+	background-color: #f32938;
+	padding: 1rem .5rem .3rem .5rem;
+	margin-right: -.5rem;
+	color:white;
+}
+
+.border {
+	border: solid, 1px;
+}
+
+
+
+/*NEW CONTAINER*/
+
+.container {
+	width:720px;
+	margin: auto;
+	display: block;	
+}
+
+/*FLOAT for image*/
+
+#float {
+	float: left;
+}
+
+/*HOVER red*/
+
+.x_off, #x:hover .x_on{
+   display:none
+}
+
+.x_on, #x:hover .x_off{
+   display:block
+}
+
+/*ARROWHOVER red*/
+
+.arrowleft_off, #arrowleft:hover .arrowleft_on{
+   display:none
+}
+
+.arrowleft_on, #arrowleft:hover .arrowleft_off{
+   display:block;
+}
+
+.rightarrow_off, #rightarrow:hover .rightarrow_on{
+   display:none
+}
+
+.rightarrow_on, #rightarrow:hover .rightarrow_off{
+   display:block;
+}
+
+.total {
+	width: 100vw;
+}
+
+
+
+
+.backImage_1 {
+	background: url("img/page1.png") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.backImage_1a {
+	background: url("img/page1a.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.backImage_1b {
+	background: url("img/page1.5.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px;
+}
+
+.backImage_2 {
+	background: url("img/page2.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.backImage_2a {
+	background: url("img/page2.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.backImage_2b {
+	background: url("img/page2b.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.backImage_3 {
+	background: url("img/page3.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.backImage_3a {
+	background: url("img/page3a.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.backImage_3b {
+	background: url("img/page3b.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.backImage_4 {
+	background: url("img/page4.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+.arrow:hover {
+	background-color: #f32938;
+	padding-right:.5rem;
+}
+
+.arrowright:hover {
+	background-color: #f32938;
+	padding-left:.5rem;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-size: cover;
+}
+
+.final {
+    border: solid 2px;
+    background-color: black;
+    border-color: white;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+	border-radius: 50%;
+	float: right;
+	margin-top: 7.4rem;
+	margin-right: 2rem;
+}
+
+.popup {
+	border: 10px #f32938;
+	
+}
+
+.final:hover {
+	background-color: #f32938;
+	border-color: #f32938;
+} 
+
+.final_2click { 
+	float: left;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   z-index: 1000;
+
+}
+
+.popup_hide {
+	display: none;
+} 
+
+.menu {font-size:.75rem; width: 100; text-align:center; display: inline-flex; flex-wrap: wrap; justify-content: center; padding:2rem 0rem 2rem 0rem;box-shadow: 3px 3px 3px 3px black;}
+

@@ -21,7 +21,7 @@ $(document).ready(function() {
 	   		$("#message").text("YOU SUCK!");
 	   	}	
 		
-	});
+		});
 	});
 	
 
