@@ -11,6 +11,10 @@
 	margin: auto;
 }
 
+body {
+	margin: 0rem 0rem 0rem 0rem;
+}
+
 .top_left {
 	float: left;
 	padding-left: 2rem;
@@ -44,6 +48,7 @@
 	width: 30px;
 	float: left;
 	padding-left: 2rem;
+	padding-right:.5rem;
 	margin-top: 7rem;
 
 }
@@ -51,6 +56,7 @@
 	width: 30px;
 	float: right;
 	padding-right: 2rem;
+	padding-left: .5rem;
 	margin-top: 7rem;
 }
 
@@ -78,10 +84,11 @@
 /*NEW CONTAINER*/
 
 .container {
-	width:720px;
+	width:55vw;
 	margin: auto;
 	display: block;	
 }
+
 
 /*FLOAT for image*/
 
@@ -89,20 +96,42 @@
 	float: left;
 }
 
+/*FLOAT for images with Lightbox links 50%*/
+
+#float50 {
+	float: left;
+	width: 50vw;
+}
+
+/*FLOAT for images with Lightbox links 25%*/
+
+#float25 {
+	float: left;
+	width: 25vw;
+}
+
+/*FLOAT for images with Lightbox links 12.5%*/
+
+#float125 {
+	float: left;
+	width: 12.5vw;
+}
+
+
 /*HOVER red*/
 
 .x_off, #x:hover .x_on{
-   display:none
+   display:none;
 }
 
 .x_on, #x:hover .x_off{
-   display:block
+   display:block;
 }
 
 /*ARROWHOVER red*/
 
 .arrowleft_off, #arrowleft:hover .arrowleft_on{
-   display:none
+   display:none;
 }
 
 .arrowleft_on, #arrowleft:hover .arrowleft_off{
@@ -110,7 +139,7 @@
 }
 
 .rightarrow_off, #rightarrow:hover .rightarrow_on{
-   display:none
+   display:none;
 }
 
 .rightarrow_on, #rightarrow:hover .rightarrow_off{
@@ -121,77 +150,19 @@
 	width: 100vw;
 }
 
-
-
-
-.backImage_1 {
-	background: url("img/page1.png") no-repeat center top;
-	background-size: cover;
-	margin: 0px 0px 0px 0px; 
-}
-
-.backImage_1a {
-	background: url("img/page1a.jpg") no-repeat center top;
-	background-size: cover;
-	margin: 0px 0px 0px 0px; 
-}
-
-.backImage_1b {
-	background: url("img/page1.5.jpg") no-repeat center top;
-	background-size: cover;
-	margin: 0px 0px 0px 0px;
-}
-
-.backImage_2 {
-	background: url("img/page2.jpg") no-repeat center top;
-	background-size: cover;
-	margin: 0px 0px 0px 0px; 
-}
-
-.backImage_2a {
-	background: url("img/page2.jpg") no-repeat center top;
-	background-size: cover;
-	margin: 0px 0px 0px 0px; 
-}
-
-.backImage_2b {
-	background: url("img/page2b.jpg") no-repeat center top;
-	background-size: cover;
-	margin: 0px 0px 0px 0px; 
-}
-
-.backImage_3 {
-	background: url("img/page3.jpg") no-repeat center top;
-	background-size: cover;
-	margin: 0px 0px 0px 0px; 
-}
-
-.backImage_3a {
-	background: url("img/page3a.jpg") no-repeat center top;
-	background-size: cover;
-	margin: 0px 0px 0px 0px; 
-}
-
-.backImage_3b {
-	background: url("img/page3b.jpg") no-repeat center top;
-	background-size: cover;
-	margin: 0px 0px 0px 0px; 
-}
-
-.backImage_4 {
-	background: url("img/page4.jpg") no-repeat center top;
-	background-size: cover;
-	margin: 0px 0px 0px 0px; 
-}
-
 .arrow:hover {
 	background-color: #f32938;
-	padding-right:.5rem;
 }
 
 .arrowright:hover {
 	background-color: #f32938;
-	padding-left:.5rem;
+}
+
+/*Image Chopping Page 1*/
+
+.FiftyPercentVW {
+	width:50vw;
+
 }
 
 .flex {
