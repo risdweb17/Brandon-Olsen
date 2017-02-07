@@ -263,7 +263,7 @@ body {
 		float: left;
 		padding-left: 2rem;
 		padding-right:.5rem;
-		margin-top: 3rem;
+		margin-top: 0rem;
 	}
 
 	.arrowright {
@@ -271,7 +271,7 @@ body {
 		float: right;
 		padding-right: 2rem;
 		padding-left: .5rem;
-		margin-top: 3rem;
+		margin-top: 0rem;
 	}
 
 	.container {
