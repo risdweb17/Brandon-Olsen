@@ -398,7 +398,7 @@ body {
 	/*MOBILE for images with Lightbox links 25%*/
 
 	#mobile25 {
-	float: left;
+	clear: both;
 	width: 36vw;
 }
 }
