@@ -90,32 +90,33 @@ body {
 }*/
 
 
-/*FLOAT for image*/
+/*FLOAT for image
 
 #float {
 	float: left;
 }
 
-/*FLOAT for images with Lightbox links 50%*/
+/*FLOAT for images with Lightbox links 50%
 
 #float50 {
 	float: left;
 	width: 50vw;
 }
 
-/*FLOAT for images with Lightbox links 25%*/
+/*FLOAT for images with Lightbox links 25%
 
 #float25 {
 	float: left;
 	width: 25vw;
 }
 
-/*FLOAT for images with Lightbox links 12.5%*/
+/*FLOAT for images with Lightbox links 12.5%
 
 #float125 {
 	float: left;
 	width: 12.5vw;
 }
+
 
 
 /*HOVER red*/
@@ -269,6 +270,33 @@ body {
 		margin-right: -.5rem;
 		color:white;
 	}
+
+	/*FLOAT for image*/
+
+	#float {
+	float: left;
+}
+
+	/*FLOAT for images with Lightbox links 50%*/
+
+	#float50 {
+	float: left;
+	width: 50vw;
+}
+
+	/*FLOAT for images with Lightbox links 25%*/
+
+	#float25 {
+	float: left;
+	width: 25vw;
+}
+
+	/*FLOAT for images with Lightbox links 12.5%*/
+
+	#float125 {
+	float: left;
+	width: 12.5vw;
+}
 }
 
 @media screen and (max-width: 400px)  {
@@ -289,7 +317,7 @@ body {
 	}
 
 	.container {
-		width:80vw;
+		width:70vw;
 		margin: auto;
 		display: block;	
 		padding-top: 40vw;
@@ -330,6 +358,33 @@ body {
 	#clearM {
 		clear: both;
 	}
+
+	/*FLOAT for image*/
+
+	#float {
+	float: left;
+}
+
+	/*FLOAT for images with Lightbox links 50%*/
+
+	#float50 {
+	float: left;
+	width: 72vw;
+}
+
+	/*FLOAT for images with Lightbox links 25%*/
+
+	#float25 {
+	float: left;
+	width: 36vw;
+}
+
+	/*FLOAT for images with Lightbox links 12.5%*/
+
+	#float125 {
+	float: left;
+	width: 18vw;
+}
 }
 
 
