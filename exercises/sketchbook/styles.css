@@ -241,7 +241,7 @@ body {
 
 @media screen and (max-width: 400px)  {
 	.arrow {
-		width: 20vw;
+		width: 10vw;
 		float: left;
 		padding-left: 2rem;
 		padding-right:.5rem;
@@ -249,7 +249,7 @@ body {
 	}
 
 	.arrowright {
-		width: 20vw;
+		width: 10vw;
 		float: right;
 		padding-right: 2rem;
 		padding-left: .5rem;
