@@ -314,11 +314,17 @@ body {
 	}
 
 	.top_left a:hover {
-		display: none;
+		background-color: #f32938;
+		padding: 0rem .5rem .3rem .5rem;
+		margin-left: -.5rem;
+		color:white;
 	}
 
 	.top_right a:hover {
-		display: none;
+		background-color: #f32938;
+		padding: 0rem .5rem .3rem .5rem;
+		margin-right: -.5rem;
+		color:white;
 	}
 }
 
