@@ -214,53 +214,16 @@ body {
 
 /*MEDIA */
 
-@media screen and (min-width: 401px)  {
-
-	.arrow {
-	width: 30px;
-	float: left;
-	padding-left: 2rem;
-	padding-right:.5rem;
-	margin-top: 7rem;
-
+	.mobile {
+		display: none;
 	}
-	.arrowright {
-		width: 30px;
-		float: right;
-		padding-right: 2rem;
-		padding-left: .5rem;
-		margin-top: 7rem;
-	}
+	
 
-	.container {
-	width:55vw;
-	margin: auto;
-	display: block;	
-}
-}
 
 @media screen and (max-width: 400px)  {
-	.arrow {
-		width: 20vw;
-		float: left;
-		padding-left: 2rem;
-		padding-right:.5rem;
-		margin-top: 7rem;
+	.mobile {
+		display: block;
 	}
-
-	.arrowright {
-		width: 20vw;
-		float: right;
-		padding-right: 2rem;
-		padding-left: .5rem;
-		margin-top: 7rem;
-	}
-
-	.container {
-		width:80vw;
-		margin: auto;
-		display: block;	
-}
 }
 
 
