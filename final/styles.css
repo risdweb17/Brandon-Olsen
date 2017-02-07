@@ -1,0 +1,235 @@
+@font-face {
+	font-family:"MarkWeb W01 Regular";
+	src:url("Fonts/1466068/76b78c7b-50e8-443f-947d-491bd1363209.eot?#iefix");
+	src:url("Fonts/1466068/76b78c7b-50e8-443f-947d-491bd1363209.eot?#iefix") format("eot"),url("Fonts/1466068/b3504f0d-8be1-4759-bb03-dd041a630b85.woff2") format("woff2"),url("Fonts/1466068/f4f1b391-1256-4245-ba89-842d884c1e51.woff") format("woff"),url("Fonts/1466068/1f72bfeb-0b2a-45fa-aaee-bbd991d40541.ttf") format("truetype");
+}
+
+.back_image {
+	background-color: #353896;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+#home {
+	width: 300px;
+	height: 300px;
+}
+
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: flex-start;
+}
+
+/* sketchbook hover */
+.image_off, #home:hover .image_on{
+   display:none
+}
+.image_on, #home:hover .image_off{
+   display:block
+}
+
+/* x hover */
+
+.x_off, #x:hover .x_on{
+   display:none
+}
+
+.x_on, #x:hover .x_off{
+   display:block
+}
+
+/* josef hover */
+
+.josef_off, #josef:hover .josef_on{
+   display:none
+}
+
+.josef_on, #josef:hover .josef_off{
+   display:block
+}
+
+/* cake hover */
+
+.cake_off, #cake:hover .cake_on{
+   display:none
+}
+
+.cake_on, #cake:hover .cake_off{
+   display:block
+}
+
+/* resume hover */
+
+.resume_off, #resume:hover .resume_on{
+   display:none
+}
+
+.resume_on, #resume:hover .resume_off{
+   display:block
+}
+
+/* cake css hover */
+
+.cakecss_off, #cakecss:hover .cakecss_on{
+   display:none
+}
+
+.cakecss_on, #cakecss:hover .cakecss_off{
+   display:block
+}
+
+/* jquery hover */
+
+.jquery_off, #jquery:hover .jquery_on{
+   display:none
+}
+
+.jquery_on, #jquery:hover .jquery_off{
+   display:block
+}
+
+/* reading1 hover */
+
+.reading1_off, #reading1:hover .reading1_on{
+   display:none
+}
+
+.reading1_on, #reading1:hover .reading1_off{
+   display:block
+}
+
+/* reading2 hover */
+
+.reading2_off, #reading2:hover .reading2_on{
+   display:none
+}
+
+.reading2_on, #reading2:hover .reading2_off{
+   display:block
+}
+
+/* reading3 hover */
+
+.reading3_off, #reading3:hover .reading3_on{
+   display:none
+}
+
+.reading3_on, #reading3:hover .reading3_off{
+   display:block
+}
+
+/* reading4 hover */
+
+.reading4_off, #reading4:hover .reading4_on{
+   display:none
+}
+
+.reading4_on, #reading4:hover .reading4_off{
+   display:block
+}
+
+/* match hover */
+
+.match_off, #match:hover .match_on{
+   display:none
+}
+
+.match_on, #match:hover .match_off{
+   display:block
+}
+
+/* loop hover */
+
+.loop_off, #loop:hover .loop_on{
+   display:none
+}
+
+.loop_on, #loop:hover .loop_off{
+   display:block
+}
+
+/* favweb hover */
+
+.favweb_off, #favweb:hover .favweb_on{
+   display:none
+}
+
+.favweb_on, #favweb:hover .favweb_off{
+   display:block
+}
+
+/* text */
+
+.text {
+	font-family:"MarkWeb W01 Regular";
+	font-size: 1rem;
+	position: relative;
+	text-align: center;
+	color: #f32938;
+}
+
+.container {
+	width:300px;
+	height: 320px;
+	float: left;
+	margin: 1rem 0rem 1rem 0rem;
+	
+}
+
+.header {
+	
+	display: flex;
+	font-family:"MarkWeb W01 Regular";
+	font-size: 1rem;
+	color: #f32938;
+}
+
+.burger {
+	height:2rem;
+}
+
+.hamburger {
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 2rem;
+	border: transparent;
+	font-family:"MarkWeb W01 Regular";
+	color: #f32938;
+	margin-left: .5rem;
+	outline-color: transparent;
+  	outline-style: none;
+}
+
+.home {
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 2rem;
+	border: transparent;
+	font-family:"MarkWeb W01 Regular";
+	color: #f32938;
+}
+
+span {
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 1rem;
+	border: transparent;
+	font-family:"MarkWeb W01 Regular";
+	color: #f32938;
+	opacity: .2;
+}
+
+.menu {font-size:.75rem; width: 100; background:#f32938; text-align:center; display: inline-flex; flex-wrap: wrap; justify-content: center; padding-left:0rem;}
+
+li {
+	color:white;
+	display: inline;
+	padding: .5rem 1rem .5rem 1rem;
+	font-family:"MarkWeb W01 Regular";
+}
+
+
+
+

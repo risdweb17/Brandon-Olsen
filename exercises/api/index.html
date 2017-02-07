@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Where's Home?</title>
+  <style type="text/css">
+    html,
+    body {
+      height: 100%;
+      margin: 50px;
+      padding: 0;
+      }
+
+    body {
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAP0lEQVQoU42Q0QoAIAgDz///aMPAKKeQb26HTg0tB6zKVUhI4Bus5tMn2K4Djh7gBGXM7Uvo5riQ/BfUNwwTWfn+Cgg4zkoRAAAAAElFTkSuQmCC) repeat;
+    }
+
+    h1 {
+      background-color: white;
+    }
+
+
+    #map {
+      width: 80vw;
+      height: 60vh;
+    }
+    .mapinfo{
+      line-height: 1.5;
+    }
+    p {
+      font-family: serif;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: violet;
+    }
+  </style>
+</head>
+
+<body>
+    <h1>HOME?</h1>
+    <div id="map"></div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgWjuOBXlpTAu4tx1UtWhXUc40ZMt2_DU&callback=initMap"></script> <!--WHY DOESNT MY API KEY WORK-->
+    <script type="text/javascript">
+            
+            google.maps.event.addDomListener(window, 'load', initMap);
+            function initMap() {
+                
+                var mapOptions = {
+                    
+                    zoom: 5,
+                   
+                    center: new google.maps.LatLng(41.8263327, -71.4107893), // PVD
+                    
+                    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#bcbcbc"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#e869ff"}]},{"featureType":"road","elementType":"geometry","stylers":[{"color":"#29768a"},{"lightness":-37}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#406d80"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#406d80"}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#3e606f"},{"weight":2},{"gamma":0.84}]},{"elementType":"labels.text.fill","stylers":[{"color":"#e869ff"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"weight":0.6},{"color":"#1a3541"}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#2c5a71"}]}]
+                };
+                
+                var mapElement = document.getElementById('map');
+                
+                var map = new google.maps.Map(mapElement, mapOptions);
+          var providence = {
+              info: '<p class="mapinfo">Providence Home?</p>',
+                        lat: 42.320064,
+              long: -71.363988
+            };
+          var chicago = {   
+              info: '<p class="mapinfo">Chicago Home?</p>',
+              lat: 41.85,
+              long: -87.64999999999998
+            };
+          var detroit = {
+              info: '<p class="mapinfo">Detroit Home?</p>',
+              lat:  42.331429, 
+              long: -83.045753,
+            };
+        var locations = [
+            [providence.info, providence.lat, providence.long, 0],
+            [chicago.info, chicago.lat, chicago.long, 1],
+            [detroit.info, detroit.lat, detroit.long, 2]
+          ];
+                var infowindow = new google.maps.InfoWindow({});
+                var marker, i;
+                for (i = 0; i < locations.length; i++) {
+                  marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                    map: map
+                  });
+                  google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                    return function () {
+                      infowindow.setContent(locations[i][0]);
+                      infowindow.open(map, marker);
+                    }
+                  })(marker, i));
+                }
+            }
+        </script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+

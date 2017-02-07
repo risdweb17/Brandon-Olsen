@@ -4,6 +4,11 @@
 	src:url("Fonts/1466068/76b78c7b-50e8-443f-947d-491bd1363209.eot?#iefix") format("eot"),url("Fonts/1466068/b3504f0d-8be1-4759-bb03-dd041a630b85.woff2") format("woff2"),url("Fonts/1466068/f4f1b391-1256-4245-ba89-842d884c1e51.woff") format("woff"),url("Fonts/1466068/1f72bfeb-0b2a-45fa-aaee-bbd991d40541.ttf") format("truetype");
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
+
 .back_image {
 	background-color: #353896;
 	background-size: cover;
@@ -157,6 +162,36 @@
 }
 
 .favweb_on, #favweb:hover .favweb_off{
+   display:block
+}
+
+/* finalsketch hover */
+
+.finalsketch_off, #finalsketch:hover .finalsketch_on{
+   display:none
+}
+
+.finalsketch_on, #finalsketch:hover .finalsketch_off{
+   display:block
+}
+
+/* codecademy hover */
+
+.codecademy_off, #codecademy:hover .codecademy_on{
+   display:none
+}
+
+.codecademy_on, #codecademy:hover .codecademy_off{
+   display:block
+}
+
+/* api hover */
+
+.api_off, #api:hover .api_on{
+   display:none
+}
+
+.api_on, #api:hover .api_off{
    display:block
 }
 
