@@ -197,11 +197,11 @@ a {
 
 /* p5 hover */
 
-.p5_off, #p5:hover .p5_on{
+.pfive_off, #pfive:hover .pfive_on{
    display:none
 }
 
-.p5_on, #p5:hover .p5_off{
+.pfive_on, #pfive:hover .pfive_off{
    display:block
 }
 
