@@ -15,7 +15,7 @@ body {
 	margin: 0rem 0rem 0rem 0rem;
 }
 
-.top_left {
+/*.top_left {
 	float: left;
 	padding-left: 2rem;
 }
@@ -23,7 +23,7 @@ body {
 .top_right {
 	float: right;
 	padding-right: 2rem;	
-}
+}*/
 
 /*.nav_block {
 	background-color: white;
@@ -245,6 +245,16 @@ body {
 	position: absolute;
 	padding-top: .5rem;
 	}
+
+	.top_left {
+		float: left;
+		padding-left: 2rem;
+	}
+
+	.top_right {
+		float: right;
+		padding-right: 2rem;	
+	}
 }
 
 @media screen and (max-width: 400px)  {
@@ -277,6 +287,16 @@ body {
 		width:100vw;
 		position: absolute;
 		padding-top: 0rem;
+	}
+
+	.top_left {
+		float: left;
+		padding-left: 0rem;
+	}
+
+	.top_right {
+		float: right;
+		padding-right: 0rem;	
 	}
 }
 
