@@ -215,7 +215,7 @@ body {
 
 /*MEDIA */
 
-@media screen and (min-width: 401px)  {
+@media screen and (min-width: 531px)  {
 
 	.arrow {
 	width: 30px;
@@ -303,7 +303,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 400px)  {
+@media screen and (max-width: 530px)  {
 	.arrow {
 		width: 10vw;
 		float: left;
@@ -337,12 +337,12 @@ body {
 
 	.top_left {
 		float: left;
-		padding-left: 0rem;
+		padding-left: 1rem;
 	}
 
 	.top_right {
 		float: right;
-		padding-right: 0rem;	
+		padding-right: 1rem;	
 	}
 
 	.top_left a:hover {
