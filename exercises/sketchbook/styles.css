@@ -240,7 +240,7 @@ body {
 	}
 
 	.nav_block {
-	background-color: white;
+	background-color: transparent;
 	height: 2rem;
 	width:100vw;
 	position: absolute;
@@ -328,7 +328,7 @@ body {
 	}
 
 	.nav_block {
-		background-color: white;
+		background-color: transparent;
 		height: 1rem;
 		width:100vw;
 		position: absolute;
