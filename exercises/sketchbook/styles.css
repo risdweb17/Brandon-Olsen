@@ -61,7 +61,7 @@ body {
 }*/
 
 
-.top_left a:hover {
+/*.top_left a:hover {
 	background-color: #f32938;
 	padding: 1rem .5rem .3rem .5rem;
 	margin-left: -.5rem;
@@ -73,7 +73,7 @@ body {
 	padding: 1rem .5rem .3rem .5rem;
 	margin-right: -.5rem;
 	color:white;
-}
+}*/
 
 .border {
 	border: solid, 1px;
@@ -255,6 +255,20 @@ body {
 		float: right;
 		padding-right: 2rem;	
 	}
+
+	.top_left a:hover {
+		background-color: #f32938;
+		padding: 1rem .5rem .3rem .5rem;
+		margin-left: -.5rem;
+		color:white;
+	}
+
+	.top_right a:hover {
+		background-color: #f32938;
+		padding: 1rem .5rem .3rem .5rem;
+		margin-right: -.5rem;
+		color:white;
+	}
 }
 
 @media screen and (max-width: 400px)  {
@@ -297,6 +311,14 @@ body {
 	.top_right {
 		float: right;
 		padding-right: 0rem;	
+	}
+
+	.top_left a:hover {
+		display: none;
+	}
+
+	.top_right a:hover {
+		display: none;
 	}
 }
 
