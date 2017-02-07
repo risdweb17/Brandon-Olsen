@@ -394,7 +394,15 @@ body {
 		display: block;
 		margin: auto;
 	}
+
+	/*MOBILE for images with Lightbox links 25%*/
+
+	#mobile25 {
+	float: left;
+	width: 36vw;
 }
+}
+
 
 
 
