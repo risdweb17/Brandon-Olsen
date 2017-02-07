@@ -15,108 +15,15 @@ body {
 	margin: 0rem 0rem 0rem 0rem;
 }
 
-/*.top_left {
-	float: left;
-	padding-left: 2rem;
-}
-
-.top_right {
-	float: right;
-	padding-right: 2rem;	
-}*/
-
-/*.nav_block {
-	background-color: white;
-	height: 2rem;
-	width:100vw;
-	position: absolute;
-	padding-top: .5rem;
-
-}*/
-
 #clear {
 	clear: both;
 	float: right;
 }
 
-.arrow_container {
-	width: 5%;
-	float: left;
-}
-
-/*.arrow {
-	width: 30px;
-	float: left;
-	padding-left: 2rem;
-	padding-right:.5rem;
-	margin-top: 7rem;
-
-}
-.arrowright {
-	width: 30px;
-	float: right;
-	padding-right: 2rem;
-	padding-left: .5rem;
-	margin-top: 7rem;
-}*/
-
-
-/*.top_left a:hover {
-	background-color: #f32938;
-	padding: 1rem .5rem .3rem .5rem;
-	margin-left: -.5rem;
-	color:white;
-}
-
-.top_right a:hover {
-	background-color: #f32938;
-	padding: 1rem .5rem .3rem .5rem;
-	margin-right: -.5rem;
-	color:white;
-}*/
 
 .border {
 	border: solid, 1px;
 }
-
-
-
-/*NEW CONTAINER
-
-.container {
-	width:55vw;
-	margin: auto;
-	display: block;	
-}*/
-
-
-/*FLOAT for image
-
-#float {
-	float: left;
-}
-
-/*FLOAT for images with Lightbox links 50%
-
-#float50 {
-	float: left;
-	width: 50vw;
-}
-
-/*FLOAT for images with Lightbox links 25%
-
-#float25 {
-	float: left;
-	width: 25vw;
-}
-
-/*FLOAT for images with Lightbox links 12.5%
-
-#float125 {
-	float: left;
-	width: 12.5vw;
-}
-
 
 
 /*HOVER red*/
