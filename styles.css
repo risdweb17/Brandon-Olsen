@@ -195,6 +195,16 @@ a {
    display:block
 }
 
+/* p5 hover */
+
+.p5_off, #p5:hover .p5_on{
+   display:none
+}
+
+.p5_on, #p5:hover .p5_off{
+   display:block
+}
+
 /* text */
 
 .text {
