@@ -332,7 +332,7 @@ body {
 		height: 1rem;
 		width:100vw;
 		position: absolute;
-		padding-top: 0rem;
+		padding-top: .5rem;
 	}
 
 	.top_left {
