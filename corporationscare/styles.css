@@ -1,0 +1,223 @@
+.container {
+	justify-content: center;
+}
+
+.container_title {
+	justify-content: center;
+	background-color: #f1be53;
+}
+
+.container_band {
+	justify-content: center;
+	height: 45px;
+}
+
+
+.image_off, #home:hover .image_on{
+   display:none
+}
+.image_on, #home:hover .image_off{
+   display:block
+}
+
+.wecare_off, #home:hover .wecare_on{
+   display:none
+}
+.wecare_on, #home:hover .wecare_off{
+   display:block
+}
+
+.bp_off, #home:hover .bp_on{
+   display:none
+}
+.bp_on, #home:hover .bp_off{
+   display:block
+}
+
+.apple_off, #home:hover .apple_on{
+   display:none
+}
+.apple_on, #home:hover .apple_off{
+   display:block
+}
+
+.nike_off, #home:hover .nike_on{
+   display:none
+}
+.nike_on, #home:hover .nike_off{
+   display:block
+}
+
+.access_off, #home:hover .access_on{
+   display:none
+}
+.access_on, #home:hover .access_off{
+   display:block
+}
+
+#home {
+	width: 300px;
+	height: 300px;
+}
+
+.flexbox {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #f1be53;
+}
+
+.flexbox_wecare {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #f35c57;
+}
+
+.flexbox_band {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #f1be53;
+}
+
+.flexbox_nike {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #b5b825;
+}
+
+.flexbox_bp {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #37ba79;
+}
+
+.flexbox_apple {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #3ea8e0;
+}
+
+.background {
+	background-size: cover;
+	padding:0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background-image: url("img/background.jpg");
+}
+
+.bpimage {
+	width: 60%;
+	position: absolute;
+}
+
+.bplogo {
+	position: relative;
+	right: -100px;
+	width: 150px;
+	top: 200px;
+} 
+
+.applelogo {
+	position: relative;
+	right: -100px;
+	width: 200px;
+	top: 100px;
+} 
+
+.nyt {
+	position: relative;
+	left: : -350px;
+	top: 300px;
+	width: 450px;
+}
+
+.nola {
+	position: relative;
+	left: : -300px;
+	top: 100px;
+	width: 450px;
+}
+
+.nike1 {
+	position: relative;
+	left: : -300px;
+	top: 100px;
+	width: 235px;
+}
+
+.nike2 {
+	position: relative;
+	left: : -300px;
+	top: 400px;
+	width: 300px;
+}
+
+.nike3 {
+	position: relative;
+	left: : -300px;
+	top: 60px;
+	width: 270px;
+}
+
+
+.apple2 {
+	position: relative;
+	left: : -300px;
+	top: 20px;
+	width: 320px;
+}
+
+.apple3 {
+	position: relative;
+	left: : -500px;
+	top: 400px;
+	width: 450px;
+}
+
+.apple4 {
+	position: relative;
+	left: : -300px;
+	top: 10px;
+	width: 300px;
+	
+}
+
+.top {
+	padding:0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	height: 50px;
+	width: 100vw;
+}
+
+.toplogo {
+	float: left;
+	padding:8px;
+	height: 35px;
+}
+
+.values {
+	width: 1296px;
+}
+
+body {
+	margin: 0px 0px 0px 0px;
+}
+
+#link:hover {
+	opacity: 0.6;
+}
+
+
+
+
+
