@@ -10,8 +10,8 @@ function setup() {
 
 function draw() {
   var redColor = map(mouseX,0,width,238,181);
-  var greenColor = map(mouseX,0,height,28,42);
-  var blueColor = map(mouseY,0,width,74,80);
+  var greenColor = map(mouseY,0,height,28,42);
+  var blueColor = map(mouseX,0,width,74,80);
  
   
   background(redColor, greenColor, blueColor);
