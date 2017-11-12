@@ -22,6 +22,24 @@
 	align-content: flex-start;
 }
 
+/* endtimes hover */
+.endtimes_off, #endtimes:hover .endtimes_on{
+   display:none
+}
+.endtimes_on, #endtimes:hover .endtimes_off{
+   display:block
+}
+
+.endtimes_on {
+	width: 300px;
+	height: 300px;
+}
+
+.endtimes_off {
+	width: 300px;
+	height: 300px;
+}
+
 /* plates hover */
 .plates_off, #plates:hover .plates_on{
    display:none
@@ -394,6 +412,26 @@
 }
 
 .go4it_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* dronebaby hover */
+
+.dronebaby_off, #dronebaby:hover .dronebaby_on{
+   display:none
+}
+
+.dronebaby_on, #dronebaby:hover .dronebaby_off{
+   display:block
+}
+
+.dronebaby_on {
+	width: 300px;
+	height: 300px;
+}
+
+.dronebaby_off {
 	width: 300px;
 	height: 300px;
 } 

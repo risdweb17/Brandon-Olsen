@@ -1,0 +1,130 @@
+@font-face {
+	font-family:"MarkWeb W01 Regular";
+	src:url("Fonts/1466068/76b78c7b-50e8-443f-947d-491bd1363209.eot?#iefix");
+	src:url("Fonts/1466068/76b78c7b-50e8-443f-947d-491bd1363209.eot?#iefix") format("eot"),url("Fonts/1466068/b3504f0d-8be1-4759-bb03-dd041a630b85.woff2") format("woff2"),url("Fonts/1466068/f4f1b391-1256-4245-ba89-842d884c1e51.woff") format("woff"),url("Fonts/1466068/1f72bfeb-0b2a-45fa-aaee-bbd991d40541.ttf") format("truetype");
+}
+
+#header {
+    /* for good browsers */
+    /* the height you want the header to be */
+    /* height: 100px; sg */
+    z-index: 3;
+    left: 0px;
+    position: fixed;
+    top: 10px;
+    font-size: 1rem;
+}
+
+#headerRight {
+    z-index: 3;
+    right: 0px;
+    position: fixed;
+    top: 1.3rem;
+    font-size: 1rem;
+    color: rgba(255,255,255,0.6);
+	font-family: "MarkWeb W01 Regular", sans-serif;
+	margin-right: 2rem;
+	padding-left: 5px;
+	padding-right:5px;
+}
+
+.headerLogo {
+	z-index: 3;
+	width: 15rem;
+	margin-left: 1rem;
+
+}
+
+.bodyImages {
+	z-index: 2;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	width:100%;
+	/*border:12px solid rgba(255,255,255,0.6);*/
+	
+}
+
+.bodyImages:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+
+.imageFlex {
+	display: -webkit-inline-flex;
+   	display: inline-flex;  
+}
+
+#bodyImageFlex {
+	z-index: 2;
+	position: relative;
+	padding-left: 15%;
+	font-size: 1rem;
+	color: white;
+	font-family: "MarkWeb W01 Regular", sans-serif;
+}
+
+
+#bodyText {
+	z-index: 2;
+	position: relative;
+	padding-left: 15%;
+	width:70%;
+	padding-top: 20%;
+	font-size: 4rem;
+	color: white;
+	font-family: "MarkWeb W01 Regular", sans-serif;
+}
+
+.email {
+	z-index: 2;
+	position: relative;
+	padding-left: 0;
+	
+	padding-top: 0%;
+	font-size: 3rem;
+	color: white;
+	font-family: "MarkWeb W01 Regular", sans-serif;
+}
+
+
+
+.captionText {
+	z-index: 2;
+	padding-left: 2rem;
+	font-size: 1rem;
+	color: white;
+	font-family: "MarkWeb W01 Regular", sans-serif;
+	width:10%;
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+hr {
+	z-index:3;
+    left: 0px;
+    width:70%;
+    border-bottom: 1px solid white;
+    margin-left:0px;
+}
+
+.foot {
+	display: -webkit-inline-flex;
+   display: inline-flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+	z-index:3;
+	font-size: .75rem;
+	padding-top: 10rem;
+	padding-bottom: 2rem;
+    color: rgba(255,255,255,0.5);
+	font-family: "MarkWeb W01 Regular", sans-serif;
+}
+
+#addressSpacing {
+	padding-left: 2rem;
+}
+
+
