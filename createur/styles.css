@@ -109,6 +109,17 @@ hr {
     margin-left:0px;
 }
 
+#bodyText_foot {
+	z-index: 2;
+	position: relative;
+	padding-left: 15%;
+	width:70%;
+	padding-top: 15%;
+	font-size: 4rem;
+	color: white;
+	font-family: "MarkWeb W01 Regular", sans-serif;
+}
+
 .foot {
 	display: -webkit-inline-flex;
    display: inline-flex;
