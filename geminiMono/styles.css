@@ -1,0 +1,415 @@
+
+
+  body {
+    
+    background-color: black;
+     -webkit-transform: scale(1);
+    transform:scale(1);
+
+  }
+
+  /* NAV PANEL*/
+  #navPanel {
+    z-index: 999;
+    position: fixed;
+    font-size: .75rem;
+    height:6rem;
+    width:150px;
+    background: transparent;
+    color: white;
+    font-family: "SpaceRace-Regular";
+    margin-top: 3%;
+    margin-left: 3%;
+    letter-spacing: .15rem;
+    
+}
+
+
+.parallax {
+    height: 100vh;
+    width: 100vw;
+    overflow-x:auto;
+    overflow-y: auto;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+    -webkit-transform-style: preserve-3d; /* Chrome, Safari, Opera */
+    transform-style: preserve-3d;
+    font-size: 200%;
+  
+    
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    height: 20000px;
+    width:20000px;
+    background:transparent;
+   
+  }
+
+  .parallax__layer--base {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+    
+  
+  }
+
+
+  .parallax__layer--back {
+    -webkit-transform: translateZ(-3px) scale(4);
+    transform: translateZ(-3px) scale(4);
+    -
+   
+  }
+
+
+   /* centre the content in the parallax layers */
+  .title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+ 
+
+
+
+
+  /*CENTERED TITLE*/
+  #header {
+   -webkit-transform: translateZ(-1px);
+    transform: translateZ(-1px);
+    
+    left: 0%;
+    position: fixed;
+    top: 0%;
+    font-size: 1rem;
+    height:6rem;
+    width:100%;
+    background: transparent;
+    font-size: 6rem;
+    text-align: center;
+    color: white;
+    font-family: "SpaceRace-Regular";
+    margin-top: 20%;
+    letter-spacing: .15rem;
+}
+
+.menu {
+  list-style-type:none;
+  padding: 0px 0px 0px 0px;
+  margin:0px 0px 0px 0px;
+}
+
+a:link {
+  text-decoration: none;
+  color:white;
+}
+
+a:visited {
+  text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  text-decoration: underline;  
+}
+
+
+
+
+#about {
+  z-index: 2;
+  position:absolute;
+  display: inline-flex;
+  margin:8000px 0px 0px 9050px;
+  font-family: "SpaceRace-Regular";
+}
+
+    .mercuryGemini {
+        position: absolute;
+      width:400px;
+      margin: 0px 0px 0px 0px;
+    
+  }
+
+    .captionText {
+      padding-left:450px;
+      color:white;
+      font-size: 1rem;
+      max-width: 500px;
+      letter-spacing: .2rem;
+      line-height: 1.4rem;
+    }
+
+#middle {
+
+  position: absolute;
+  font-size: 10rem;
+  color:white;
+  margin:9300px 0px 0px 11000px;
+  font-family: "SpaceRace-Regular";
+
+}
+
+
+/* SPACE JUNK START*/
+/* Gemini X Agena */
+#geminiXAgenaDockingTarget {
+  z-index: -1;
+  position:absolute;
+  margin:9200px 0px 0px 10000px;
+  font-family: "SpaceRace-Regular";
+  font-size: .5rem;
+  color:white;
+  min-width: 800px;
+  letter-spacing: .2rem;
+}
+
+    .geminiXAgenaDockingTarget_size {
+    width:100px;
+}
+
+/* Mariner 10 */
+#mariner10 {
+  z-index: -1;
+  position:absolute;
+  margin:100px 0px 0px 100px;
+  font-family: "SpaceRace-Regular";
+  font-size: .5rem;
+  color:white;
+  min-width: 800px;
+  letter-spacing: .2rem;
+}
+
+    .mariner10_size {
+    width:100px;
+}
+
+/* Soyuz TMA-18 */
+#soyuzTMA-18 {
+  z-index: -1;
+  position:absolute;
+  margin:9600px 0px 0px 8700px;
+  font-family: "SpaceRace-Regular";
+  font-size: .5rem;
+  color:white;
+  min-width: 800px;
+  letter-spacing: .2rem;
+}
+
+    .soyuzTMA-18_size {
+    width:100px;
+}
+
+/* STS 79 Atlantis */
+#sts-79Atlantis {
+  z-index: -1;
+  position:absolute;
+  margin:5700px 0px 0px 5700px;
+  font-family: "SpaceRace-Regular";
+  font-size: .5rem;
+  color:white;
+  min-width: 800px;
+  letter-spacing: .2rem;
+}
+
+    .sts-79Atlantis_size {
+    width:100px;
+}
+
+/* Mars Global Surveyor */
+#marsGlobalSurveyor {
+  z-index: -1;
+  position:absolute;
+  margin:4700px 0px 0px 5300px;
+  font-family: "SpaceRace-Regular";
+  font-size: .5rem;
+  color:white;
+  min-width: 800px;
+  letter-spacing: .2rem;
+}
+
+    .marsGlobalSurveyor_size {
+    width:100px;
+}
+
+
+/* Kounotori 5 H-II */
+#kounotori5H-II {
+  z-index: -1;
+  position:absolute;
+  margin:5000px 0px 0px 6000px;
+  font-family: "SpaceRace-Regular";
+  font-size: .5rem;
+  color:white;
+  min-width: 800px;
+  letter-spacing: .2rem;
+}
+
+    .kounotori5H-II_size {
+    width:100px;
+}
+
+/* Van Allen Probes */
+#vanAllenProbes {
+  z-index: -1;
+  position:absolute;
+  margin:6000px 0px 0px 4700px;
+  font-family: "SpaceRace-Regular";
+  font-size: .5rem;
+  color:white;
+  min-width: 800px;
+  letter-spacing: .2rem;
+}
+
+    .vanAllenProbes_size {
+    width:100px;
+}
+
+/* UNITED STATES */
+.unitedStates {
+  z-index: -1;
+  position:absolute;
+  margin:9000px 0px 0px 9000px;
+  font-family: "SpaceRace-Regular";
+  font-size: 1.5rem;
+  color:white;
+  min-width: 800px;
+  letter-spacing: .2rem;
+}
+
+/* ED WHITE */
+.edWhite {
+  z-index: -1;
+  position:absolute;
+  margin:10000px 0px 0px 10000px;
+  font-family: "SpaceRace-Regular";
+  font-size: 1.5rem;
+  color:white;
+  min-width: 800px;
+  letter-spacing: .2rem;
+}
+
+#nixonMoon {
+  z-index: 2;
+  position:absolute;
+  margin:10200px 0px 0px 9000px;
+  font-family: "SpaceRace-Regular";
+}
+
+    .nixonMoon {
+      padding-top: 1rem;
+      padding-left:1rem;
+      position: absolute;
+      width:400px;
+}
+
+    .captionTextNixon {
+      padding-left:450px;
+      color:white;
+      font-size: 1rem;
+      max-width: 500px;
+      letter-spacing: .2rem;
+      line-height: 1.4rem;
+    }
+
+#freedom7 {
+  z-index: 2;
+  position:absolute;
+  margin:9300px 0px 0px 6980px;
+  font-family: "SpaceRace-Regular";
+}
+
+    .freedom7 {
+      padding-top: 1rem;
+      padding-left:1rem;
+      position: absolute;
+      width:400px;
+}
+
+    .captionTextfreedom7 {
+      padding-left:450px;
+      color:white;
+      font-size: 1rem;
+      max-width: 500px;
+      letter-spacing: .2rem;
+      line-height: 1.4rem;
+    }
+
+
+#group1 {
+  z-index: 2;
+  position:absolute;
+  margin:8400px 0px 0px 7800px;
+  font-family: "SpaceRace-Regular";
+}
+
+    .ballisticCapsule {
+      padding-top: 1rem;
+      padding-left:1rem;
+      position: absolute;
+      width:500px;
+}
+
+    .captionTitle {
+      
+      color:white;
+      letter-spacing: .1rem;
+      font-size: 2rem;
+      line-height: 2.4rem;
+    }
+
+.geminiProgramTitle {
+    font-size: 4rem;
+    letter-spacing: .1rem;
+    min-width: 1000px;
+    position:absolute;
+    display: inline-flex;
+    margin:7400px 0px 0px 9500px;
+    font-family: "SpaceRace-Regular";
+    color: white;
+    text-decoration: underline;
+  }
+
+.mercuryProgramTitle {
+    font-size: 4rem;
+    letter-spacing: .1rem;
+    min-width: 1000px;
+    position:absolute;
+    display: inline-flex;
+    margin:9100px 0px 0px 7000px;
+    font-family: "SpaceRace-Regular";
+    color: white;
+    text-decoration: underline;
+  }
+
+.apolloProgramTitle {
+    font-size: 4rem;
+    letter-spacing: .1rem;
+    min-width: 1000px;
+    position:absolute;
+    display: inline-flex;
+    margin:9300px 0px 0px 9500px;
+    font-family: "SpaceRace-Regular";
+    color: white;
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+
+
+
+
+
