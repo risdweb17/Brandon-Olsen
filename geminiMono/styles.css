@@ -30,20 +30,6 @@
     line-height: 1.2rem;
 }
 
-  a:link {
-    text-decoration: none;
-    color:white;
-}
-
-  a:visited {
-    text-decoration: none;
-    color:white;
-}
-
-  a:hover {
-    text-decoration: underline;  
-}
-
 /* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX */
 /* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX */
 .parallax {
@@ -395,7 +381,7 @@
       #geminiTarget {
         position: absolute;
         color: white;
-        padding:100px 300px 100px 300px;
+        padding:100px 300px 100px 400px;
         font-size: 4rem;
         letter-spacing: .1rem;
         min-width: 1000px;
@@ -414,9 +400,10 @@
     font-family: "SpaceRace-Regular";
     color: white;
     text-decoration: underline;
+     padding:150px 300px 100px 350px; 
   }
 
-/**/
+
 #apolloProgram {
     font-size: 4rem;
     letter-spacing: .1rem;
@@ -424,6 +411,7 @@
     position:absolute;
     display: inline-flex;
     margin:9300px 0px 0px 9500px;
+    padding:450px 300px 100px 335px; 
     font-family: "SpaceRace-Regular";
     color: white;
     text-decoration: underline;
