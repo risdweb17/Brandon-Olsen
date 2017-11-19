@@ -1,5 +1,3 @@
-
-
   body {
     
     background-color: black;
@@ -8,7 +6,7 @@
 
   }
 
-  /* NAV PANEL*/
+  /* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*/
   #navPanel {
     z-index: 999;
     position: fixed;
@@ -21,10 +19,31 @@
     margin-top: 3%;
     margin-left: 3%;
     letter-spacing: .15rem;
-    
 }
 
+  .menu {
+    list-style-type:none;
+    padding: 0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+    line-height: .1rem;
+}
 
+  a:link {
+    text-decoration: none;
+    color:white;
+}
+
+  a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+  a:hover {
+    text-decoration: underline;  
+}
+
+/* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX */
+/* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX */
 .parallax {
     height: 100vh;
     width: 100vw;
@@ -63,26 +82,10 @@
   .parallax__layer--back {
     -webkit-transform: translateZ(-3px) scale(4);
     transform: translateZ(-3px) scale(4);
-    -
-   
   }
+  
 
-
-   /* centre the content in the parallax layers */
-  .title {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-
- 
-
-
-
-
-  /*CENTERED TITLE*/
+  /*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*/
   #header {
    -webkit-transform: translateZ(-1px);
     transform: translateZ(-1px);
@@ -102,54 +105,7 @@
     letter-spacing: .15rem;
 }
 
-.menu {
-  list-style-type:none;
-  padding: 0px 0px 0px 0px;
-  margin:0px 0px 0px 0px;
-  line-height: .1rem;
-}
-
-a:link {
-  text-decoration: none;
-  color:white;
-}
-
-a:visited {
-  text-decoration: none;
-  color:white;
-}
-
-a:hover {
-  text-decoration: underline;  
-}
-
-
-
-
-#about {
-  z-index: 2;
-  position:absolute;
-  display: inline-flex;
-  margin:8000px 0px 0px 9050px;
-  font-family: "SpaceRace-Regular";
-}
-
-    .mercuryGemini {
-        position: absolute;
-      width:400px;
-      margin: 0px 0px 0px 0px;
-    
-  }
-
-    .captionText {
-      padding-left:450px;
-      color:white;
-      font-size: 1rem;
-      max-width: 500px;
-      letter-spacing: .2rem;
-      line-height: 1.4rem;
-    }
-
+/* MIDDLE LOCATION *//* MIDDLE LOCATION *//* MIDDLE LOCATION *//* MIDDLE LOCATION *//* MIDDLE LOCATION *//* MIDDLE LOCATION */
 #middle {
 
   position: absolute;
@@ -157,9 +113,7 @@ a:hover {
   color:white;
   margin:9300px 0px 0px 11000px;
   font-family: "SpaceRace-Regular";
-
 }
-
 
 /* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*/
 /* Gemini X Agena */
@@ -392,6 +346,30 @@ a:hover {
       font-size: 2rem;
       line-height: 2.4rem;
     }
+
+#about {
+  z-index: 2;
+  position:absolute;
+  display: inline-flex;
+  margin:8000px 0px 0px 9050px;
+  font-family: "SpaceRace-Regular";
+}
+
+    .mercuryGemini {
+        position: absolute;
+      width:400px;
+      margin: 0px 0px 0px 0px;
+    
+  }
+
+    .captionText {
+      padding-left:450px;
+      color:white;
+      font-size: 1rem;
+      max-width: 500px;
+      letter-spacing: .2rem;
+      line-height: 1.4rem;
+    }    
 
 /* SECTION TITLES *//* SECTION TITLES *//* SECTION TITLES *//* SECTION TITLES *//* SECTION TITLES *//* SECTION TITLES */    
 .geminiProgramTitle {
