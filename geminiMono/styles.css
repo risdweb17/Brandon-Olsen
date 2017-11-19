@@ -74,8 +74,8 @@
   }
 
   .parallax__layer--base {
-    -webkit-transform: translateZ(-1px) scale(2);
-    transform: translateZ(-1px) scale(2);
+    -webkit-transform: translateZ(0) ;
+    transform: translateZ(0) ;
     
   
   }
@@ -317,7 +317,7 @@
 #gemini6-7 {
   z-index: 2;
   position:absolute;
-  margin:7000px 0px 0px 7480px;
+  margin:7000px 0px 0px 8000px;
   font-family: "SpaceRace-Regular";
 }
 
@@ -384,31 +384,37 @@
     }    
 
 /* SECTION TITLES *//* SECTION TITLES *//* SECTION TITLES *//* SECTION TITLES *//* SECTION TITLES *//* SECTION TITLES */    
-.geminiProgramTitle {
-    font-size: 4rem;
-    letter-spacing: .1rem;
-    min-width: 1000px;
+#geminiProgram {
     position:absolute;
     display: inline-flex;
     margin:7400px 0px 0px 9500px;
-    font-family: "SpaceRace-Regular";
-    color: white;
-    text-decoration: underline;
   }
 
-.mercuryProgramTitle {
+      #geminiTarget {
+        position: absolute;
+        color: white;
+        padding:100px 300px 100px 300px;
+        font-size: 4rem;
+        letter-spacing: .1rem;
+        min-width: 1000px;
+        font-family: "SpaceRace-Regular";
+        color: white;
+        text-decoration: underline;
+      }
+
+#mercuryProgram {
     font-size: 4rem;
     letter-spacing: .1rem;
-    min-width: 1000px;
+    min-width: 500px;
     position:absolute;
     display: inline-flex;
-    margin:9100px 0px 0px 7000px;
+    margin:9100px 0px 0px 6000px;
     font-family: "SpaceRace-Regular";
     color: white;
     text-decoration: underline;
   }
 
-.apolloProgramTitle {
+#apolloProgram {
     font-size: 4rem;
     letter-spacing: .1rem;
     min-width: 1000px;
