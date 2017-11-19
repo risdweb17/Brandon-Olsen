@@ -161,7 +161,7 @@ a:hover {
 }
 
 
-/* SPACE JUNK START*/
+/* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*/
 /* Gemini X Agena */
 #geminiXAgenaDockingTarget {
   z-index: -1;
@@ -275,6 +275,8 @@ a:hover {
     width:100px;
 }
 
+/* WORDS, NAMES, PHRASES *//* WORDS, NAMES, PHRASES *//* WORDS, NAMES, PHRASES *//* WORDS, NAMES, PHRASES *//* WORDS, NAMES, PHRASES */
+
 /* UNITED STATES */
 .unitedStates {
   z-index: -1;
@@ -299,6 +301,7 @@ a:hover {
   letter-spacing: .2rem;
 }
 
+/* BASE IMAGES & TEXT *//* BASE IMAGES & TEXT *//* BASE IMAGES & TEXT *//* BASE IMAGES & TEXT *//* BASE IMAGES & TEXT */
 #nixonMoon {
   z-index: 2;
   position:absolute;
@@ -345,6 +348,28 @@ a:hover {
       line-height: 1.4rem;
     }
 
+#gemini6-7 {
+  z-index: 2;
+  position:absolute;
+  margin:7000px 0px 0px 7480px;
+  font-family: "SpaceRace-Regular";
+}
+
+    .gemini6-7 {
+      padding-top: 1rem;
+      padding-left:1rem;
+      position: absolute;
+      width:300px;
+}
+
+    .captionTextgemini6-7 {
+      padding-left:450px;
+      color:white;
+      font-size: 1rem;
+      max-width: 500px;
+      letter-spacing: .2rem;
+      line-height: 1.4rem;
+    }
 
 #group1 {
   z-index: 2;
@@ -368,6 +393,7 @@ a:hover {
       line-height: 2.4rem;
     }
 
+/* SECTION TITLES *//* SECTION TITLES *//* SECTION TITLES *//* SECTION TITLES *//* SECTION TITLES *//* SECTION TITLES */    
 .geminiProgramTitle {
     font-size: 4rem;
     letter-spacing: .1rem;
