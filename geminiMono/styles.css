@@ -7,6 +7,7 @@
   }
 
   /* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*/
+  /* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*/
   #navPanel {
     z-index: 999;
     position: fixed;
@@ -84,7 +85,7 @@
     transform: translateZ(-3px) scale(4);
   }
   
-
+  /*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*/
   /*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*//*CENTERED TITLE*/
   #header {
    -webkit-transform: translateZ(-1px);
@@ -106,6 +107,7 @@
 }
 
 /* MIDDLE LOCATION *//* MIDDLE LOCATION *//* MIDDLE LOCATION *//* MIDDLE LOCATION *//* MIDDLE LOCATION *//* MIDDLE LOCATION */
+/* MIDDLE LOCATION *//* MIDDLE LOCATION *//* MIDDLE LOCATION *//* MIDDLE LOCATION *//* MIDDLE LOCATION *//* MIDDLE LOCATION */
 #middle {
 
   position: absolute;
@@ -116,6 +118,8 @@
 }
 
 /* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*/
+/* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*//* SPACE JUNK START*/
+
 /* Gemini X Agena */
 #geminiXAgenaDockingTarget {
   z-index: -1;
@@ -230,6 +234,7 @@
 }
 
 /* WORDS, NAMES, PHRASES *//* WORDS, NAMES, PHRASES *//* WORDS, NAMES, PHRASES *//* WORDS, NAMES, PHRASES *//* WORDS, NAMES, PHRASES */
+/* WORDS, NAMES, PHRASES *//* WORDS, NAMES, PHRASES *//* WORDS, NAMES, PHRASES *//* WORDS, NAMES, PHRASES *//* WORDS, NAMES, PHRASES */
 
 /* UNITED STATES */
 .unitedStates {
@@ -256,6 +261,9 @@
 }
 
 /* BASE IMAGES & TEXT *//* BASE IMAGES & TEXT *//* BASE IMAGES & TEXT *//* BASE IMAGES & TEXT *//* BASE IMAGES & TEXT */
+/* BASE IMAGES & TEXT *//* BASE IMAGES & TEXT *//* BASE IMAGES & TEXT *//* BASE IMAGES & TEXT *//* BASE IMAGES & TEXT */
+
+/* Nixon and the Moon */
 #nixonMoon {
   z-index: 2;
   position:absolute;
@@ -279,6 +287,8 @@
       line-height: 1.4rem;
     }
 
+
+/* FREEDOM 7 */
 #freedom7 {
   z-index: 2;
   position:absolute;
@@ -302,6 +312,7 @@
       line-height: 1.4rem;
     }
 
+/* Gemini 6 and 7 */
 #gemini6-7 {
   z-index: 2;
   position:absolute;
