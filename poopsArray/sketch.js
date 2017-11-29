@@ -6,9 +6,6 @@ var poops2;
 var poops3;
 var poops4;
 
-function preload() {
-
-}
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -26,12 +23,9 @@ function setup() {
 
 function draw() {
   image(layerTwo, windowWidth/2, windowHeight/2, windowWidth, windowHeight);
-  
-
 }
 
 
 function mouseClicked() {
     layerTwo.image(random(poopArray), mouseX/2, mouseY/2, 50, 50);
-    
 }
