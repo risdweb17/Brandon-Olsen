@@ -3,20 +3,87 @@
   <head>
     <meta charset="UTF-8">
     <title>sketch</title>
+    <link type="text/css" href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <script src="libraries/p5.js" type="text/javascript"></script>
-
     <script src="libraries/p5.dom.js" type="text/javascript"></script>
     <script src="libraries/p5.sound.js" type="text/javascript"></script>
-
     <script src="sketch.js" type="text/javascript"></script>
-
-    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;  } </style>
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top; position: absolute;} </style>
   </head>
-
-  
   <body>
+      <!--HEADER-->
+      <div id="header">
+        <a><img class="headerLogo" src="img/typicalScaleLogo.svg" alt="logo_svg" /></a>
+      </div>
 
-		<canvas>hey</canvas>
+      <!--MENU-->
+      <div id="headerRight">
+        <a class="linkSpacing"> ABOUT </a>
+        <a class="linkSpacing"> ELEVATION </a>
+        <a class="linkSpacing"> RENDERING </a>
+      </div>
+
+      <canvas></canvas>
+
+      <!--72" HEIGHT LINE - ROW ONE-->
+      <div class="heightTopTextRow1">6'-0"</div>
+
+      <!--GROUND HEIGHT - ROW ONE-->
+      <div class="heightGroundTextRow1">0'-0"</div>
+
+      <!--BODY-->
+      <div class="flexbox">
+        
+        <!--ME FIGURE-->
+        <div class="containerFirst">
+          <a id="meFigure"><img class="meFigure_on" src="img/meFigure.png" alt="meFigure_png" /><img class="meFigure_off" src="img/meFigure.png" alt="meFigure_gif" /></a>
+        </div>
+
+        <!--MONSTER TRUCK WHEELCHAIR-->
+        <div class="container">
+          <a id="monsterTruckWheelchair"><img class="monsterTruckWheelchair_on" src="img/monsterTruckWheelchair.png" alt="monsterTruckWheelchair_png" /><img class="monsterTruckWheelchair_off" src="img/monsterTruckWheelchair.gif" alt="monsterTruckWheelchair_gif" /></a>
+        </div>
+
+        <!--DRONE BABY-->
+        <div class="container">
+          <a id="dronebaby"><img class="dronebaby_on" src="img/dronebaby.png" alt="dronebaby_png" /><img class="dronebaby_off" src="img/dronebaby.gif" alt="dronebaby_gif" /></a>
+        </div>
+
+        <!--STILTS KID-->
+        <div class="container">
+          <a id="stiltsKid"><img class="stiltsKid_on" src="img/stiltsKid.png" alt="stiltsKid_png" /><img class="stiltsKid_off" src="img/stiltsKid.gif" alt="stiltsKid_gif" /></a>
+        </div>
+
+        <!--ROBOT LEGS KID-->
+        <div class="container">
+          <a id="robotLegs"><img class="robotLegs_on" src="img/robotLegs.png" alt="robotLegs_png" /><img class="robotLegs_off" src="img/robotLegs.png" alt="robotLegs_gif" /></a>
+        </div>
+
+        <!--MINI HORSE MAN-->
+        <div class="container">
+          <a id="miniHorseMan"><img class="miniHorseMan_on" src="img/miniHorseMan.png" alt="miniHorseMan_png" /><img class="miniHorseMan_off" src="img/miniHorseMan.png" alt="miniHorseMan_gif" /></a>
+        </div>
+
+        <!--TALL BABY-->
+        <div class="container">
+          <a id="tallBaby"><img class="tallBaby_on" src="img/tallBaby.png" alt="tallBaby_png" /><img class="tallBaby_off" src="img/tallBaby.png" alt="tallBaby_gif" /></a>
+        </div>
+
+        <!--LONG CANE-->
+        <div class="container">
+          <a id="longCane"><img class="longCane_on" src="img/longCane.png" alt="longCane_png" /><img class="longCane_off" src="img/longCane.png" alt="longCane_gif" /></a>
+        </div>
+
+        <div class="background">
+          <div class="backgroundFlex">
+            <img class="background_elevations" src="img/background_elevation_1.svg" alt="background1_svg" />
+            <img class="background_elevations" src="img/background_elevation_1.svg" alt="background1_svg" />
+            <img class="background_elevations" src="img/background_elevation_1.svg" alt="background1_svg" />
+          </div>
+        </div>
+
+        </div>
 
   </body>
 </html>

@@ -1,0 +1,296 @@
+#header {
+    z-index: 3;
+    left: 0%;
+    position: fixed;
+    top: 0%;
+    font-size: 1rem;
+    height:6rem;
+    width:100%;
+    background: rgba(255,255,255,0.9);
+
+}
+
+.headerLogo {
+	z-index: 3;
+	height: 4.5rem;
+	margin:.75rem .75rem .75rem .75rem;
+}
+
+
+#headerRight {
+    z-index: 3;
+    right: 0px;
+    position: fixed;
+    top: 0rem;
+    font-size: 1rem;
+    color: black;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	margin-top:4rem;
+	margin-right: .75rem;
+	padding-left: 5px;
+	
+}
+
+.linkSpacing {
+	margin-left: 2rem;
+}
+
+body {
+	background:white;
+	width:10000px;
+}
+
+.flexbox {
+	margin-top:2%;
+	display: block;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: flex-start;
+}
+
+.container {
+	z-index: 2;
+	height: 300px;
+	float: left;
+	margin: 3rem 0rem 1rem 0rem;
+	padding-left:15rem;	
+}
+
+.containerFirst {
+	z-index: 2;
+	height: 300px;
+	float: left;
+	margin: 3rem 0rem 1rem 0rem;
+	padding-left:8rem;	
+}
+
+.heightLineRow1 {
+	z-index:-1;
+	position: absolute;
+	margin-top: 8rem;
+	width:10000px;
+	border-top: 1px dashed black
+}
+
+.heightTopTextRow1 {
+	z-index:-1;
+	position: absolute;
+	margin-top: 6.6rem;
+	margin-left:1rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size:1rem;
+}
+
+.heightGroundTextRow1 {
+	z-index:-1;
+	position: absolute;
+	margin-top: 21.95rem;
+	margin-left:1rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size:1rem;
+}
+
+hr { 
+z-index: -1;
+
+}
+
+
+/* me hover */
+
+.meFigure_off, #meFigure:hover .meFigure_on{
+   display:none
+}
+
+.meFigure_on, #meFigure:hover .meFigure_off{
+   display:block
+}
+
+.meFigure_on {
+	z-index: 3;
+	
+	height: 300px;
+}
+
+.meFigure_off {
+	z-index: 3;
+	
+	height: 300px;
+} 
+
+/* dronebaby hover */
+
+.dronebaby_off, #dronebaby:hover .dronebaby_on{
+   display:none
+}
+
+.dronebaby_on, #dronebaby:hover .dronebaby_off{
+   display:block
+}
+
+.dronebaby_on {
+	z-index: 3;
+	
+	height: 300px;
+}
+
+.dronebaby_off {
+	z-index: 3;
+	
+	height: 300px;
+} 
+
+/* monsterTruckWheelchair hover */
+
+.monsterTruckWheelchair_off, #monsterTruckWheelchair:hover .monsterTruckWheelchair_on{
+   display:none
+}
+
+.monsterTruckWheelchair_on, #monsterTruckWheelchair:hover .monsterTruckWheelchair_off{
+   display:block
+}
+
+.monsterTruckWheelchair_on {
+	z-index: 3;
+	height: 300px;
+	
+}
+
+.monsterTruckWheelchair_off {
+	z-index: 3;
+	height: 300px;
+	
+} 
+
+/* stiltsKid hover */
+
+.stiltsKid_off, #stiltsKid:hover .stiltsKid_on{
+   display:none
+}
+
+.stiltsKid_on, #stiltsKid:hover .stiltsKid_off{
+   display:block
+}
+
+.stiltsKid_on {
+	z-index: 3;
+	height: 300px;
+	
+}
+
+.stiltsKid_off {
+	z-index: 3;
+	height: 300px;
+	
+} 
+
+/* robotLegs hover */
+
+.robotLegs_off, #robotLegs:hover .robotLegs_on{
+   display:none
+}
+
+.robotLegs_on, #robotLegs:hover .robotLegs_off{
+   display:block
+}
+
+.robotLegs_on {
+	z-index: 3;
+	height: 300px;
+	
+}
+
+.robotLegs_off {
+	z-index: 3;
+	height: 300px;
+	
+} 
+
+/* miniHorseMan hover */
+
+.miniHorseMan_off, #miniHorseMan:hover .miniHorseMan_on{
+   display:none
+}
+
+.miniHorseMan_on, #miniHorseMan:hover .miniHorseMan_off{
+   display:block
+}
+
+.miniHorseMan_on {
+	z-index: 3;
+	height: 300px;
+	
+}
+
+.miniHorseMan_off {
+	z-index: 3;
+	height: 300px;
+	
+} 
+
+/* tallBaby hover */
+
+.tallBaby_off, #tallBaby:hover .tallBaby_on{
+   display:none
+}
+
+.tallBaby_on, #tallBaby:hover .tallBaby_off{
+   display:block
+}
+
+.tallBaby_on {
+	z-index: 3;
+	height: 300px;
+	
+}
+
+.tallBaby_off {
+	z-index: 3;
+	height: 300px;
+	
+} 
+
+/* longCane hover */
+
+.longCane_off, #longCane:hover .longCane_on{
+   display:none
+}
+
+.longCane_on, #longCane:hover .longCane_off{
+   display:block
+}
+
+.longCane_on {
+	z-index: 3;
+	height: 300px;
+	
+}
+
+.longCane_off {
+	z-index: 3;
+	height: 300px;
+	
+} 
+
+
+.background{
+	z-index:-1;
+	position: absolute;
+	padding-top:1.1rem;
+}
+
+.background_elevations {
+	height:23rem;
+}
+
+.backgroundFlex {
+	display:inline-flex;
+}
+
+
+
+
+
