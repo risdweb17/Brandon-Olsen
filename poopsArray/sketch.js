@@ -25,9 +25,8 @@ function setup() {
 
 
 function draw() {
-  background(255, 242, 0);
   image(layerTwo, windowWidth/2, windowHeight/2, windowWidth, windowHeight);
-  console.log(mouseX,mouseY);
+  
 
 }
 
