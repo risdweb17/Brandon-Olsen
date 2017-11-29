@@ -1,25 +1,47 @@
-  body {
-    
+ @font-face {
+  font-family:"SpaceRace-Regular";
+  src:url(fonts/SpaceRace-Regular.otf);
+}
+
+ @font-face {
+  font-family:"GEMINI";
+  src:url(fonts/SpaceRace-Regular.woff);
+}
+
+
+ #spaceBody {
     background-color: black;
      -webkit-transform: scale(1);
     transform:scale(1);
 
   }
 
+  #indexBody {
+      background-color: black;
+     -webkit-transform: scale(1);
+    transform:scale(1);
+    -webkit-perspective: 1px;
+    perspective: 1px;
+    -webkit-transform-style: preserve-3d; /* Chrome, Safari, Opera */
+    transform-style: preserve-3d;
+
+  }
+  
+
   /* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*/
   /* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*//* NAV PANEL*/
   #navPanel {
     z-index: 999;
     position: fixed;
-    font-size: .75rem;
+    font-size: .8rem;
     height:6rem;
     width:150px;
     background: transparent;
     color: white;
     font-family: "SpaceRace-Regular";
-    margin-top: 3%;
-    margin-left: 3%;
-    letter-spacing: .15rem;
+    margin-top: 2%;
+    margin-left: 2%;
+    letter-spacing: .2rem;
 }
 
 /* menu */
@@ -27,7 +49,7 @@
     list-style-type:none;
     padding: 0px 0px 0px 0px;
     margin:0px 0px 0px 0px;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
 }
 
 /* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX *//* PARALLAX */
@@ -55,6 +77,21 @@
     
     height: 20000px;
     width:20000px;
+    background:transparent;
+   
+  }
+
+  .parallax__layerLorem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    height: 100px;
+    width: 100vw;
+    margin-left: 25%;
+    margin-top:30%;
     background:transparent;
    
   }
@@ -100,7 +137,7 @@
   position: absolute;
   font-size: 10rem;
   color:white;
-  margin:9300px 0px 0px 11000px;
+  margin:7750px 0px 0px 9450px;
   font-family: "SpaceRace-Regular";
 }
 
@@ -411,12 +448,37 @@
     position:absolute;
     display: inline-flex;
     margin:9300px 0px 0px 9500px;
-    padding:450px 300px 100px 335px; 
+    padding:20px 300px 100px 50px; 
     font-family: "SpaceRace-Regular";
     color: white;
     text-decoration: underline;
   }
 
+
+
+/*-----------INTRO PAGE---------------------*//*-----------INTRO PAGE---------------------*/
+/*-----------INTRO PAGE---------------------*//*-----------INTRO PAGE---------------------*/
+/*-----------INTRO PAGE---------------------*//*-----------INTRO PAGE---------------------*/
+/*-----------INTRO PAGE---------------------*//*-----------INTRO PAGE---------------------*/
+
+#intro-text {
+  position: fixed;
+  font-family: "SpaceRace-Regular";
+  color: white;
+  left: 0%;
+  top: 0%;
+  font-size: .8rem;
+  padding-top: 2%;
+  padding-left: 2%;
+  letter-spacing: .2rem;
+  line-height: 1.5rem;
+  z-index: 999;
+}
+
+
+#introLink a:link {text-decoration: none;color:white;}
+#introLink a:visited {text-decoration: none;color:white;}
+#introLink a:hover {text-decoration:none;background:white;}
 
 
 
