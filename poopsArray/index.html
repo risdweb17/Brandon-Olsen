@@ -9,7 +9,7 @@
     <script src="libraries/p5.dom.js" type="text/javascript"></script>
     <script src="libraries/p5.sound.js" type="text/javascript"></script>
     <script src="sketch.js" type="text/javascript"></script>
-    <style> body {padding: 0; margin: 0;} </style>
+    <style> body {padding: 0; margin: 0;} canvas {position:absolute; top:0; left:0; z-index:1;} </style>
   </head>
   <body>
       <!--HEADER-->
@@ -24,9 +24,9 @@
         <a class="linkSpacing"> RENDERING </a>
       </div>
 
-      <canvas style = "position:absolute; top:0; left:0; z-index:1;"></canvas>
-      <canvas style = "position:relative; top:0; left:0; z-index:1;"></canvas>
-
+      <div style="display: flex;">
+      <canvas> </canvas>
+      </div>
 
       <!--72" HEIGHT LINE - ROW ONE-->
       <div class="heightTopTextRow1">6'-0"</div>
