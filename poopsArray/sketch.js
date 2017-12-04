@@ -11,11 +11,11 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   layerTwo = createGraphics(windowWidth, windowHeight);
   imageMode(CENTER);
-  poops1 = loadImage("img/poops1.png");
-  poops2 = loadImage("img/poops2.png");
-  poops3 = loadImage("img/poops3.png");
-  poops4 = loadImage("img/poops4.png");
-  poopArray.push(poops1,poops2,poops3,poops4);
+  fig1 = loadImage("img/dronebaby.png");
+  fig2 = loadImage("img/monsterTruckWheelchair.png");
+  fig3 = loadImage("img/robotLegs.png");
+  fig4 = loadImage("img/miniHorseMan.png");
+  poopArray.push(fig1,fig2,fig3,fig4);
 
 }
 
@@ -27,5 +27,5 @@ function draw() {
 
 
 function mouseClicked() {
-    layerTwo.image(random(poopArray), mouseX/2, mouseY/2, 50, 50);
+    layerTwo.image(random(poopArray), mouseX/2-57.1, mouseY/2-75,114.213, 150);
 }
